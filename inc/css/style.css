@@ -94,3 +94,17 @@
     border-radius: 50%;
     border: 2px solid white;
 }
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-area i {
+    font-size: 45px;
+    color: #fff;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.close-menu,.mobile-menu{
+    display: none;
+}

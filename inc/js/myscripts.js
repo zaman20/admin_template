@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-  //mobile-menu
+  //dashboard-menu-list
   $('.menu-area ul li').on('click',function(e){
   
 
@@ -35,15 +35,22 @@ $(document).ready(function(){
   //image preview 
   $('.za-fimg-box ').hide();
 
-$('#fImage').on('change',function(event){
-  $('.za-fimg-box ').show();
-  let image = URL.createObjectURL(event.target.files[0]);
-  $('#feature_img').attr('src',image);
-});
-//image preview hide
-$('.za-removeimg').on('click',function(){
-  $('.za-fimg-box ').hide();
-  $('#fImage').val('');
-});
+  $('#fImage').on('change',function(event){
+    $('.za-fimg-box ').show();
+    let image = URL.createObjectURL(event.target.files[0]);
+    $('#feature_img').attr('src',image);
+  });
+  //image preview hide
+  $('.za-removeimg').on('click',function(){
+    $('.za-fimg-box ').hide();
+    $('#fImage').val('');
+  });
+
+  //mobile-menu
+
+  $('.logo-area span').on('click',function(){
+    $('.menu-area').slideToggle();
+    $('.logo-area').children('span').toggle();
+  });
 
 });

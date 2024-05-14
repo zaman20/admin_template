@@ -24,9 +24,12 @@
         <div class="row ">
             <div class="col-lg-2 bg-dark backend-wrapper">
                 <div class="left-side">
-                    <div class="logo-area">
+                    <div class="logo-area flex">
                         <h4>Admin Pannel</h4>
+                        <span class="mobile-menu"><i class="fa-solid fa-bars "></i></span>
+                        <span class="close-menu"><i class="fa-solid fa-xmark"></i></span>
                     </div>
+
                     <div class="menu-area">
                         <ul>
                             <li><a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a></li>
@@ -63,44 +66,46 @@
             </div>
          
             <div class="col-lg-10  my-3">
-                <div class="row shadow px-4">
-                    <div class="col-lg-12  text-end">
-                        <div class="header-menu">
-                            <ul>
-                                <li><a href=""><i class="fa-brands fa-internet-explorer"></i> See Website</a></li>
-                                <li><a href=""><i class="fa-solid fa-user"></i> Profile</a></li>
-                                <li><a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i> Log Out</a></li>
-                            </ul>
+                <div class="right-side">
+                    <div class="row shadow px-2">
+                        <div class="col-lg-12  text-end">
+                            <div class="header-menu">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-internet-explorer"></i> See Website</a></li>
+                                    <li><a href=""><i class="fa-solid fa-user"></i> Profile</a></li>
+                                    <li><a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i> Log Out</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row my-4 px-4">
-                    <h4>Add New Posts</h4>
-                    <form action="" class="row">
-                        <div class="col-lg-9 my-2">
-                            <label for="">Title </label>
-                            <input type="text" class="form-control my-2">
-                            <label for="">Description</label>
-                            <textarea name="" rows="20" class="form-control my-2"></textarea>
-                        </div>
-                        <div class="col-lg-3 my-2">
-                            <label for="">Category </label>
-                            <input type="text" class="form-control my-2">
-                            <label for="">Type </label>
-                            <input type="text" class="form-control my-2">
-                            <label for="">Feature Image</label>
-                            <div class="za-fimg-box">
-                                <img src="" class="my-2 img-fluid rounded" id="feature_img" alt="">
-                                <i class="fa-solid fa-circle-xmark za-removeimg" ></i>
+                    <div class="row my-4 px-2">
+                        <h4>Add New Posts</h4>
+                        <form action="" class="row">
+                            <div class="col-lg-9 my-2">
+                                <label for="">Title </label>
+                                <input type="text" class="form-control my-2">
+                                <label for="">Description</label>
+                                <textarea name="" rows="20" class="form-control my-2"></textarea>
                             </div>
-                            <input type="file" id="fImage" class="form-control my-2">
-                            <input type="submit" value="Add Post" class="btn btn-primary form-control my-2">
-                        </div>
-                      
-                      
+                            <div class="col-lg-3 my-2">
+                                <label for="">Category </label>
+                                <input type="text" class="form-control my-2">
+                                <label for="">Type </label>
+                                <input type="text" class="form-control my-2">
+                                <label for="">Feature Image</label>
+                                <div class="za-fimg-box">
+                                    <img src="" class="my-2 img-fluid rounded" id="feature_img" alt="">
+                                    <i class="fa-solid fa-circle-xmark za-removeimg" ></i>
+                                </div>
+                                <input type="file" id="fImage" class="form-control my-2">
+                                <input type="submit" value="Add Post" class="btn btn-primary form-control my-2">
+                            </div>
+                        
+                        
 
-                    </form>
+                        </form>
 
+                    </div>
                 </div>
             </div>
         </div>
