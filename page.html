@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Admin Template</title>
+
+    <!-- font Awesome / Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- main style -->
+    <link rel="stylesheet" href="inc/css/style.css">
+    <link rel="stylesheet" href="inc/css/responsive.css">
+</head>
+
+<body>
+
+  
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-2 bg-dark backend-wrapper">
+                <div class="left-side">
+                    <div class="logo-area">
+                        <h4>Admin Pannel</h4>
+                    </div>
+                    <div class="menu-area">
+                        <ul>
+                            <li><a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a></li>
+                            
+                            <li class="dropdown"><a href=""><i class="fa-regular fa-file"></i> Pages </a>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                                <span class="menu-up"><i class="fa-solid fa-angle-up "></i></span>
+
+                                <ul >
+                                    <li><a href="add-new.html"><i class="fa-solid fa-plus"></i> Add New</a></li>
+                                    <li><a href=""><i class="fa-regular fa-file-lines"></i> All Pages</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="notice.html"><i class="fa-solid fa-bullhorn"></i> Notice</a></li>
+                            <li class="dropdown"><a href=""><i class="fa-solid fa-thumbtack"></i> Posts </a>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                                <span class="menu-up"><i class="fa-solid fa-angle-up "></i>
+                                </span>
+                                <ul>
+                                    <li><a href="">Sub Menu Item</a></li>
+                                    <li><a href="">Sub Menu Item</a></li>
+                                    <li><a href="">Sub Menu Item</a></li>
+                                    <li><a href="">Sub Menu Item</a></li>
+                                    <li><a href="">Sub Menu Item</a></li>
+                                    <li><a href="">Sub Menu Item</a></li>
+                                </ul>
+                            </li>
+                            <li><a href=""><i class="fa-regular fa-clipboard"></i> Summary</a></li>
+                            <li><a href=""><i class="fa-solid fa-envelope"></i> Message</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="col-lg-10  my-3">
+                <div class="row shadow px-4">
+                    <div class="col-lg-12  text-end">
+                        <div class="header-menu">
+                            <ul>
+                                <li><a href=""><i class="fa-brands fa-internet-explorer"></i> See Website</a></li>
+                                <li><a href=""><i class="fa-solid fa-user"></i> Profile</a></li>
+                                <li><a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i> Log Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4 px-4">
+                    <h4 class="mt-4">All Posts</h4>
+                  
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr class="table-secondary">
+                                <th>SL</th>
+                                <th>Img</th>
+                                <th>Title</th>
+                                <th>Desc</th>
+                                <th>Category</th>
+                                <th>Date</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                            <tr>
+                                <td>01</td>
+                                <td><img src="inc/img/download (3).jfif" style="width:100px;" class="img-fluid"></td>
+                                <td>Lorem ipsum dolor sit amet.</td>
+                                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, minus!</td>
+                                <td>Blog</td>
+                                <td>14 May 2024</td>
+                                <td>
+                                    <a href="" class="btn btn-sm btn-primary">Edit</a>
+                                    <a href="#" class="btn btn-sm btn-danger dlt-btn">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>02</td>
+                                <td><img src="inc/img/download (4).jfif" style="width:100px;" class="img-fluid"></td>
+                                <td>Lorem ipsum dolor sit amet.</td>
+                                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, minus!</td>
+                                <td>Blog</td>
+                                <td>14 May 2024</td>
+                                <td>
+                                    <a href="" class="btn btn-sm btn-primary">Edit</a>
+                                    <a href="#" class="btn btn-sm btn-danger dlt-btn">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>03</td>
+                                <td><img src="inc/img/download (5).jfif" style="width:100px;" class="img-fluid"></td>
+                                <td>Lorem ipsum dolor sit amet.</td>
+                                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, minus!</td>
+                                <td>Blog</td>
+                                <td>14 May 2024</td>
+                                <td>
+                                    <a href="" class="btn btn-sm btn-primary">Edit</a>
+                                    <a href="#" class="btn btn-sm btn-danger dlt-btn">Delete</a>
+                                </td>
+                            </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+
+
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- sweet js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- my js script -->
+    <script src="inc/js/myscripts.js"></script>
+</body>
+
+</html>
