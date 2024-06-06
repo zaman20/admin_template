@@ -73,14 +73,68 @@
     align-items: center;
     color: white;
     padding: 30px 35px;
+    width: 31%;
+    margin: 1%;
+    position: relative;
+    border-radius: 5px;
+   
 }
+.dbox::before {
+    content: " ";
+    width: 100%;
+    height: 78%;
+    position: absolute;
+    background: #0c0c0c;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    border-radius: 5px;
+}
+.dbox-text {
+    width: 93%;
+    text-align: left;
+    z-index: 999;
+    margin-bottom:9px;
+}
+
 .dbox h4{
     font-size: 20px;
     font-weight: 600;
 }
 .dbox h6{
-    font-size: 26px;
+    font-size: 40px;
     font-weight: 700;
+}
+.dbox-icon {
+    font-size: 39px;
+    margin-top:18px;
+  
+}
+.more-info {
+    z-index: 9999;
+    background: #ffffff78;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    padding: 3px;
+}
+.more-info a {
+    color: #1b1b1b;
+    text-decoration: none;
+    font-size: 18px;
+   display:block;
+}
+.more-info a i{
+    margin-left:5px;
+    font-size:15px;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+}
+.header-menu{
+    margin-right: 20px;
 }
 .za-fimg-box {
     position: relative;
